@@ -1,0 +1,14 @@
+{
+  "name": "freepbx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "init.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asterisk-ami": "^0.1.0",
+    "axios": "^1.4.0"
+  }
+}
