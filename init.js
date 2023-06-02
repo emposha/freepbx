@@ -65,11 +65,11 @@ ami.on('ami_data', (data) => {
                         direction = 'outbound'
                         destination = data.destination
                         other_phone = data.destination
-                        user_ext = data.channel.match(new RegExp('/(.*)-'))[1] || ''
-                        console.log(JSON.stringify(data.channel))
+                        user_ext = data.channel.match(new RegExp('/(.*)-'))[1] || ''                        
                         break
                 }
-
+                console.log(data);
+                console.log(direction, destination, other_phone, user_ext);
                 axios.post('https://getdspro.com/one/call/in', data)
                 .then(res => {
                     
