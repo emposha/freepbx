@@ -9,6 +9,6 @@
   "license": "ISC",
   "dependencies": {
     "asterisk-ami": "^0.1.0",
-    "axios": "^1.4.0"
+    "axios": "0.22.0"
   }
 }
